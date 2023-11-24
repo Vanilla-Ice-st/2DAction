@@ -1,0 +1,15 @@
+◇プレイヤーの動きを点滅
+下記のレンダラーを点滅させる
+https://nekojara.city/unity-object-blink
+
+◇一定時間経過後に実行する
+https://qiita.com/toRisouP/items/e6d4f114d434ee588044
+
+◇他のスクリプトを無効化する
+https://futabazemi.net/unity/script_invalid
+付与されているオブジェクトのスクリプトを無効にしたいだけなら
+this.gameObject.GetComponent<PlayerMove>().enabled = false;
+みたいな感じでおｋ
+
+VSのエンコードの言語（全角文字の文字化け対策）
+https://www.ipentec.com/document/visual-studio-save-text-file-with-specified-encoding
